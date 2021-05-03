@@ -16,7 +16,7 @@ export default {
 
   fetchLatest: {
     title: "Latest",
-    url: `/movie/latest?api_key=${API_KEY}&language=en-US`,
+    url: `/movie/trending/all/day?api_key=${API_KEY}&language=en-US`,
   },
   fetchActionMovies: {
     title: "Action",
@@ -26,10 +26,7 @@ export default {
     title: "Comedy",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
   },
-  fetchActionMovies: {
-    title: "Action",
-    url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
-  },
+
   fetchSciFiMovies: {
     title: "Sci-Fi",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=878`,
