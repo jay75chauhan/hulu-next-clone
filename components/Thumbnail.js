@@ -1,17 +1,19 @@
 import Image from "next/image";
 import { ThumbUpIcon } from "@heroicons/react/outline";
 
-import {forwardRef} from "react"
+import { forwardRef } from "react";
 
-const Thumbnail=  forwardRef(({ result },ref)=> {
+const Thumbnail = forwardRef(({ result }, ref) => {
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
   return (
-    <div   ref={ref}
+    <div
+      ref={ref}
       className=" group p-2 cursor-pointer  transition duration-200
-    ease-in transform sm:hover:scale-105 hover:z-50"
+    ease-in transform sm:hover:scale-105 hover:z-50 l"
     >
       <Image
+        className="rounded-xl  shadow-2xl"
         layout="responsive"
         src={
           `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
@@ -38,6 +40,5 @@ const Thumbnail=  forwardRef(({ result },ref)=> {
       </div>
     </div>
   );
-}
-)
+});
 export default Thumbnail;
