@@ -8,3 +8,15 @@
     @apply bg-[#06202A] text-gray-300;
   }
 }
+::-webkit-scrollbar {
+  background: #06202a;
+
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
