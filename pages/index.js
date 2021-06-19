@@ -21,6 +21,20 @@ export default function Home({ results }) {
       <Nav />
 
       <Results results={results} />
+      <div className=" p-5 flex   justify-center">
+        <h2>
+          made by 🔥{" "}
+          <span>
+            <a
+              className="text-red-500 no-underline md:hover:underline"
+              href="https://github.com/jay75chauhan"
+              target="_blank"
+            >
+              jayChauhan
+            </a>
+          </span>{" "}
+        </h2>
+      </div>
     </div>
   );
 }
