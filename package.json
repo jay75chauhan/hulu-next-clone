@@ -10,11 +10,11 @@
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
     "@heroicons/react": "^1.0.1",
-<<<<<<< HEAD
-    "next": "^11.1.2",
-=======
+
+  
+
     "next": "11.1.0",
->>>>>>> 30dd25e6506c49648155bfa33fc5631377f8feeb
+
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-flip-move": "^3.0.4",
