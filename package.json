@@ -11,9 +11,11 @@
     "@badrap/bar-of-progress": "^0.1.2",
     "@heroicons/react": "^1.0.1",
     "next": "11.1.0",
+    "next-pwa": "^5.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-flip-move": "^3.0.4",
+    "sharp": "^0.29.1",
     "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {
