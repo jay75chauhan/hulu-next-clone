@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  app:
+    image: jay75chauhan/hulu-nextjs
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./pages:/app/pages
+      - ./public:/app/public
+      - ./styles:/app/styles
+      - ./components:/app/components
+      - ./utils:/app/utils
